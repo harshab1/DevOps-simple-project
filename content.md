@@ -1,6 +1,6 @@
 # DevOps Project
 
-## Jenkins Installation
+## CI/CD pipeline using Jenkins, Git and Maven
 
 1. Start Amazon EC2 instance with internet access and SG with port 8080 open for internet
 
