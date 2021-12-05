@@ -53,6 +53,20 @@
 
 	New Item > Item Name with Freestyle project > Description and Build (Shell with any command) > Build Now 
 	
+7. Configuring Git plugin
+
+	Run this command on jenkins server: yum install git -y 
+
+	Install git plugin: Manage Jenkins > Plugin Manager > availabe > Search github > Install without restart
+	
+	Configure path: Manage Jenkins > Global Tool Configuration > Git added automatically > Apply and Save
+	
+	
+	
+	
+	
+	
+	
 
 	
 	
