@@ -61,6 +61,30 @@
 	
 	Configure path: Manage Jenkins > Global Tool Configuration > Git added automatically > Apply and Save
 	
+8. Maven setup
+
+	creating a maven directory: mkdir /opt/maven and cd /opt/maven
+	
+	Downloading maven using wget from https://maven.apache.org/download.cgi
+	
+	Unzip: tar -xvzf zip-file-name
+	
+	vi ~/.bash_profile
+	
+	M2_HOME=/opt/maven/apache-maven-downloaded-version-here
+	
+	M2=$M2_HOME/bin
+	
+	PATH=<Existing_PATH>:$M2_HOME:$M2
+	
+	Check point: mvn --version
+	
+	Install (with out restart) two Maven plugins: Maven Integration and Maven Invoker. Manage Jenkins > Manage plugins > Available
+	
+	Configure path: Manage Jenkins > Global Tool Configuration > Add path from echo > Apply & Save
+	
+
+
 	
 	
 	
