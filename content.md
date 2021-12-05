@@ -82,6 +82,15 @@
 	Install (with out restart) two Maven plugins: Maven Integration and Maven Invoker. Manage Jenkins > Manage plugins > Available
 	
 	Configure path: Manage Jenkins > Global Tool Configuration > Add path from echo > Apply & Save
+
+9. First Maven job
+
+	Create a job: New Item > Item Name with Maven Project > Description, Git repo, clean install package in Goals and options for maven build > Apply & Save > Build Now
+	
+	In a build: Workspace --> contain all the files and contents that taken from github. On Jenkins server this is present in the path: /var/lib/jenkins/workspace
+	
+	
+	
 	
 
 
