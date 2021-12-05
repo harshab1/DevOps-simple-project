@@ -49,6 +49,14 @@
 	
 	Manage Jenkins > Global Tool Configuration > Add JDK
 	
+6. Running first Jenkins job
+
+	New Item > Item Name with Freestyle project > Description and Build (Shell with any command) > Build Now 
+	
+
+	
+	
+	
 	
 
 
